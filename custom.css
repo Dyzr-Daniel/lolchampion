@@ -1,0 +1,1184 @@
+/*
+Homepage Name: Lolchampion.de
+Description: Custom Css commands.
+Author: Daniel
+Version: 1.38
+Update:04.06.2015
+-----------------------------------------------------------------------------*/
+
+
+/**
+* 1. Items
+*
+* Media Query zum Ausblenden des Filters in Section Media Querys
+*/
+
+#item-filter, #checkbox-item {
+  background: #333334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+  border: 1px solid #000;
+}
+#item-filter {
+  border-bottom: 3px solid #000;
+  color: #e3c56d;
+  font-size: 1.5em;
+  padding-left: 1em;
+}
+#box-item {
+  color: #fff;
+  float: right;
+  margin: 5px 5px 5px 0;
+}
+#checkbox-item {
+  height: 9.5em;
+}
+#items li {
+  background-color: #191919;
+  border: 3px solid #000;
+  border-radius: 10px;
+  float: left;
+  height: 11.5em;
+  line-height: 100%;
+  margin: 5px;
+  padding: 3px;
+  text-align: center;
+  width: 8em;
+}
+#item-text {
+  margin-top: 5px;
+}
+#items li #item-infos {
+  background-color: #191919;
+  border: 3px solid #000;
+  color: #fff;
+  display: none;
+  height: auto;
+  position: absolute;
+  opacity: 0.95;
+  text-align: left;
+  width: 280px;
+}
+#items li:hover #item-infos {
+  display: block
+}
+#item-infos-image {
+  border: 3px solid #634825;
+  float: left;
+  overflow: hidden;
+}
+#item-infos-name {
+  margin-left: 75px;
+  margin-bottom: 5px;
+}
+#item-infos-gold {
+  margin-left: 75px;
+  color: #fff;
+}
+#item-infos-description {
+  clear: left;
+  color: #b2dffe;
+  line-height: 120%;
+  padding: 5px;
+}
+.item-infos-image-structure-layer1 {
+  padding-bottom: 5px;
+}
+.ZWEIdiv-item-infos-image-structure-layer1 {
+  width: 50%;
+}
+.DREIdiv-item-infos-image-structure-layer1 {
+  width: 33.3333%;
+}
+
+.VIERdiv-item-infos-image-structure-layer1 {
+  width: 25%;
+}
+
+.ZWEIdiv-item-infos-image-structure-layer1 #item-div,
+.DREIdiv-item-infos-image-structure-layer1 #item-div,
+.VIERdiv-item-infos-image-structure-layer1 #item-div,
+#item-info-lvl-2-div #items-info-lvl-2 {
+  background-color: #191919;
+  border: 3px solid #000;
+  display: none;
+  float: left;
+  height: auto;
+  position: absolute;
+  width: 280px;
+}
+.ZWEIdiv-item-infos-image-structure-layer1:hover #item-div,
+.DREIdiv-item-infos-image-structure-layer1:hover #item-div,
+.VIERdiv-item-infos-image-structure-layer1:hover #item-div,
+#item-info-lvl-2-div:hover #items-info-lvl-2  {
+  display: block;
+}
+
+/**
+* 2. Angebote Sidebar
+*
+*/
+
+#shop-box, #angebote-header, #angebote-champ {
+  background: #33334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+}
+#angebote-header {
+  border-bottom: 3px solid #000;
+  border: 1px solid #000;
+  color: #FFF;
+  font-size: 1.2em;
+  padding: 5px;
+}
+#angebote-champ {
+  height: 2.7em;
+}
+#angebote-bild {
+  float: left;
+  line-height: 3em;
+  padding: 6px 5px 0px 5px;
+}
+#angebote-image {
+  border-radius: 5px;
+  height: 1.875em;
+  width: 1.875em;
+}
+#angebote-image-gross {
+  border-radius: 5px;
+  height: 20.3em;
+  width: 11.4em;
+}
+#angebote-champ-name {
+  float: left;
+  line-height: 2.3em;
+  padding: 5px 5px 0px 5px;
+}
+#preis {
+  float: right;
+  line-height: 3em;
+}
+#rp {
+  float: right;
+  padding: 5px 5px 0px 5px;
+}
+
+/**
+* 3. Rota auf der Hauptseite
+* Noch keine Media Queries vorhanden!
+*/
+
+#rotation {
+  font-size: 5px;
+  overflow: hidden;
+  padding: 0px;
+}
+#rotation ul {
+  list-style-type: none;
+}
+#rotation li {
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+}
+#rotation_bereich {
+  border: 1px solid #000;
+  margin: 5px 0 31px 0;
+  padding: 2px 0 2px 7px;
+  text-shadow: 1px 1px 0px #000;
+}
+#rotation_title {
+  border-bottom: 3px solid #000;
+  border: 1px solid #000;
+  color: #FFF;
+  font-size: 1.2em;
+  padding: 8px;
+}
+#rotation_bereich, #rotation_title {
+  background: #33334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+}
+
+/**
+* 4. Uebersicht Champions
+* Media Query in Section Media Queries -> Filter ausblenden
+*/
+
+#box-champ {
+  color: #fff;
+  float: right;
+  margin: 5px 5px 5px 0;
+}
+#champion-filter {
+  border-bottom: 3px solid #000;
+  background: #33334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+  border: 1px solid #000;
+  color: #e3c56d;
+  font-size: 1.5em;
+  padding-left: 1em;
+}
+#checkbox-champion {
+  background-color: #464648;
+  border: 1px solid #000;
+}
+#champions-list ul {
+  list-style-type: none;
+}
+#champions-list li {
+  border-radius: 5px;
+  caption-side: bottom;
+  float: left;
+  margin: 5px;
+  overflow: hidden;
+  width: 120px;
+}
+#champions-list-name {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #FFF;
+  padding-left: 5px;
+  width: 7.5em;
+}
+
+/**
+* 5. Champion Seiten
+* Media Query in Section Media Queries
+*/
+
+#Champion {
+  background-color: #000;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 2em;
+  background: #33334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+}
+
+#Champion p {
+  margin: 15px;
+  font-size: 16px;
+}
+#champion-skills-header {
+  list-style-type: none;
+  margin-right: 10px;
+  position: relative;
+  top: 15.625em;
+}
+#champion-skills-header li {
+  background-color: #fff;
+  border: 4px solid #000;
+  border-radius: 10px;
+  float: right;
+  height: 72px;
+  margin: 5px;
+  width: 72px;
+}
+#champname, #champtitle, #counterHL {
+  position: absolute;
+  margin-left: 20px;
+  font-family: 'Abril Fatface', sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0),
+			3px 3px 0 rgb(47, 26, -112), 4px 4px 3px rgba(0, 0, 0, 0.6), 4px 4px 1px rgba(0, 0, 0, 0.5),
+			0px 0px 3px rgba(0, 0, 0, .2);
+}
+#champname {
+  bottom: 130px;
+  float: left;
+  font-size: 60px;
+  width: 100%;
+  height: 60px;
+}
+#champname h2 {
+  font-family: 'Abril Fatface', sans-serif !important;
+  font-weight: bold !important;
+  text-shadow: 0px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0),
+			3px 3px 0 rgb(47, 26, -112), 4px 4px 3px rgba(0, 0, 0, 0.6), 4px 4px 1px rgba(0, 0, 0, 0.5),
+			0px 0px 3px rgba(0, 0, 0, .2) !important;
+  color: #fff !important;
+  float: left !important;
+  bottom: 0 !important;
+  margin: 0 auto !important;
+  position: absolute !important;
+  font-size: 3.75em !important;
+}
+#champtitle {
+  bottom: 80px;
+  float: left;
+  font-size: 30px;
+}
+#counterHL {
+  font-size: 60px;
+}
+#champion-skills-header img {
+  height: 64px;
+  width: 64px;
+}
+
+/*Farben Beschreibung Skills*/
+
+.colorFF9900 {
+  color: #FF9900;
+}
+.colorF88017 {
+  color: #F88017;
+}
+.color99FF99 {
+  color: #99FF99;
+}
+.colorCC3300 {
+  color: #CC3300;
+}
+.colorFF8C00 {
+  color: #FF8C00;
+}
+.color88FF88 {
+  color: #88FF88;
+}
+#skill-section {
+  display: none;
+  margin: 15px 0 15px 15px;
+}
+#skill-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#skill-section li {
+  float: left;
+  margin: 0 15px 20px 15px;
+}
+#spell-description {
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+}
+#skill-section img {
+  float: left;
+  border: 4px solid #000;
+  border-radius: 10px;
+  height: 72px;
+  margin: 5px;
+  width: 72px;
+}
+#skill-section-name {
+  font-size: 20px;
+  margin: 10px 0 0 0;
+  font-weight: bold;
+}
+#spell-hover {
+  background-color: #191919;
+  border: 1px solid #000;
+  bottom: 10px;
+  color: #fff;
+  display: none;
+  font-size: 0.875em;
+  line-height: 110%;
+  max-height: 260px;
+  opacity: 0.9;
+  padding: 0.5em;
+  position: absolute;
+  right: 10px;
+  text-align: left;
+  width: 600px;
+}
+#champion-skills-header li:hover #spell-hover {
+  display: block;
+}
+#spellname {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#champion-werte, #spotlight, #champion-blurb {
+  height: 300px;
+  margin: 0 0 0 5px;
+  width: 48%;
+}
+#champion-link1, #champion-link2 {
+  border: 1px solid #000;
+  font-size: 40px;
+  height: 150px;
+  line-height: 150px;
+  text-shadow: 0px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0),
+		3px 3px 0 rgb(47, 26, -112), 4px 4px 3px rgba(0, 0, 0, 0.6), 4px 4px 1px rgba(0, 0, 0, 0.5),
+		0px 0px 3px rgba(0, 0, 0, .2);
+  width: 48%;
+}
+#champion-link1 {
+  background-image: url(/_wordpress_dev716a/wp-content/bilder/link-guide.jpg);
+  margin: 0 0 0 15px;
+}
+#champion-link2 {
+  background-image: url(/_wordpress_dev716a/wp-content/bilder/link-counter.jpg);
+  margin: 0 0 0 5px;
+}
+#champion-hl, #champion-hl-skins, #champion-skins {
+  background: #333334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+}
+#champion-hl, #champion-hl-skins {
+  border-bottom: 2px solid #000;
+}
+#champion-hl h2, #champion-hl-skins h2 {
+  margin: 0px !important;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+#champion-werte {
+  margin: 0 0 15px 15px;
+}
+#spotlight {
+  margin: 0 0 15px 5px;
+}
+#champion-blurb p,
+#champion-lore p {
+  font-size: 1em;
+  padding: 10px;
+}
+#champion-lore {
+  border: 1px solid #000;
+  margin: 1em;
+  width: 96%;
+}
+#champions-image {
+  border: 4px solid #000;
+  border-radius: 10px;
+  float: left;
+  height: 120px;
+  width: 120px;
+}
+#champ-value-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 5px;
+}
+#champ-value-title {
+  font-size: 1em;
+  margin: 5px;
+}
+#champion-values {
+  float: left;
+  margin: 5px 10px 0 5px;
+  font-size: 13px;
+}
+#champion-values-optic {
+  padding-bottom: 3px;
+}
+#champion-skins {
+  border: 1px solid #000;
+  margin: 0px 0px 15px 15px;
+  overflow: hidden;
+  width: 96.5%;
+}
+#champion-skins-elements {
+  width: 32%;
+  float: left;
+  margin: 0 0 10px 1%;
+}
+#champion-skins-elements img {
+  border: 1px solid #000;
+  width: 100%;
+}
+#champion-skin-name {
+  background: #333334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+  border: 1px solid #000;
+  font-size: 1em;
+  padding: 5px;
+}
+#champion-hl-skins {
+  margin-bottom: 5px;
+}
+
+/**
+* 6. Counter-Seiten
+* Media Query in Section Media Queries
+*/
+
+#COUNTER p {
+  font-size: 1em;
+  margin: 15px;
+}
+#counter-tips li {
+  color: #fff;
+  padding: 5px 5px 0 0;
+}
+#COUNTER {
+  background: #111;
+  background: linear-gradient( #111 10%, #000 90%);
+  height: auto;
+  width: 100%;
+}
+#COUNTER-header, #Quarter_2_hl, #Quarter_1_hl, #Quarter_3_hl, #Quarter_1, #Quarter_2, #Quarter_3 {
+  background: #333334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+}
+#COUNTER-header {
+  border: 1px solid #000;
+  border-bottom: 3px solid #000;
+  color: #e3c56d;
+  font-size: 1.13em;
+  height: auto;
+  margin-bottom: 15px;
+  margin-top: 1em;
+  padding-top: 0.5em 0em 0.5em 1em;
+  text-align: center;
+  width: 100%;
+}
+#itemlist-group ul {
+  list-style-type: none;
+}
+#itemlist-group li {
+  float: left;
+  margin-right: 1.5em;
+  overflow: hidden;
+}
+.plus_button {
+  background: linear-gradient(to bottom, #44c767 5%, #64eb15 100%);
+  background-color: #44c767;
+  border: 1px solid #000;
+  cursor: pointer;
+  color: #1f001f;
+  display: inline-block;
+  height: 25px;
+  width: 20px;
+}
+.plus_button:hover {
+  background: linear-gradient(to bottom, #64eb15 5%, #44c767 100%);
+  background-color: #64eb15;
+}
+.plus_button:active {
+  position: relative;
+  top: 1px;
+}
+.minus_button {
+  background: linear-gradient(to bottom, #e62e2e 5%, #d10808 100%);
+  background-color: #e62e2e;
+  border: 1px solid #000;
+  cursor: pointer;
+  color: #1f001f;
+  display: inline-block;
+  height: 25px;
+  width: 20px;
+}
+.minus_button:hover {
+  background: linear-gradient(to bottom, #d10808 5%, #e62e2e 100%);
+  background-color: #d10808;
+}
+.minus_button:active {
+  position: relative;
+  top: 1px;
+}
+.green {
+  background-color: #008000;
+  float: left;
+  height: 50px;
+}
+.red {
+  background-color: red;
+  float: left;
+  height: 50px;
+}
+#counter-name {
+  background-color: green;
+  float: left;
+  margin-top: 10px;
+  padding: 5px;
+  width: auto;
+}
+#counter-name2 {
+  background-color: red;
+  float: right;
+  margin-top: 10px;
+  padding: 5px;
+  width: auto;
+}
+.counter-value {
+  background-color: green;
+  float: left;
+  margin-top: 10px;
+  padding: 5px;
+  width: auto;
+}
+.counter-valueZwei {
+  background-color: red;
+  float: right;
+  margin-top: 10px;
+  padding: 5px;
+  width: auto;
+}
+#Quarter_2_hl, #Quarter_1_hl, #Quarter_3_hl {
+  border-bottom: 3px solid #000;
+  border: 1px solid #000;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+}
+#Quarter_3_hl {
+  padding-left: 1em;
+}
+
+/**
+* 8. GuideSeiten
+*
+*/
+
+.role-selection {
+background: #6391DC;
+background: linear-gradient(90deg, #6391DC 30%, #608CD3 70%);
+border: 1px solid #000;
+border-radius: 10px;
+bottom: 30px;
+float: right;
+font-size: 16px;
+font-weight: 600;
+height: 80px;
+line-height: 80px;
+position: absolute;
+text-align: center;
+box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 1);
+width: 90px;
+}
+.role-selection:hover {
+cursor: pointer;
+font-weight: 800;
+background: #2c3e50;
+background: linear-gradient(90deg, #2c3e50 30%, #2c3e50 70%);
+}
+.role1 {
+  right: 20px;
+}
+.role2 {
+  right: 120px;
+}
+.role3 {
+  right: 220px;
+}
+#guide-text, #start-items, #summoner-spells, #item-build, #skill-order, #mastery-page, #rune-page {
+  background: #333334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+}
+#champion-hl h3, #champion-hl-skins h3, #mastery-page-guide-hl h3 {
+color: #fff;
+font-size: 20px;
+margin: 0px !important;
+padding: 5px;
+text-align: center;
+}
+#guide-text {
+  margin: 0 0 0 15px;
+}
+#start-items {
+  float: left;
+  margin: 15px 0 15px 15px;
+  width: 48%;
+}
+#start-items img {
+  border: 1px solid #000;
+  border-radius: 10px;
+  float: left;
+  height: 50px;
+  margin: 5px;
+  width: 50px;
+}
+#summoner-spells {
+  float: left;
+  margin: 15px 0 15px 5px;
+  width: 48%;
+}
+#summoner-spells img {
+  border: 1px solid #000;
+  border-radius: 10px;
+  height: 50px;
+  margin: 5px;
+  width: 50px;
+}
+#item-build {
+  float: left;
+  margin: 0 15px 0 15px;
+  width: 48%;
+}
+#item-build img {
+  border: 1px solid #000;
+  border-radius: 10px;
+  float: left;
+  height: 50px;
+  margin: 5px;
+  width: 50px;
+}
+#skill-order {
+  margin: 15px;
+}
+#skill-grid {
+  margin-left: 4%;
+  padding: 10px;
+}
+#skill-grid img {
+  height: 100%;
+  width: 100%;
+}
+.skill-grid-square, .skill-grid-square-hl {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  float: left;
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 5%;
+}
+.skill-grid-square {
+  background: #6391DC;
+  background: linear-gradient(90deg, #6391DC 30%, #608CD3 70%);
+}
+.skill-grid-square-hl {
+  border-top: 1px solid #000;
+  background: #6E7B8B;
+  background: linear-gradient(90deg, #6E7B8B 30%, #6E7B84 70%);
+}
+#mastery-page {
+  float: left;
+  font-size: 16px;
+  margin: 0 15px 15px 15px;
+  width: 97%;
+}
+#mastery-page img {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  height: 355px;
+  width: 610px;
+}
+#mastery-page-guide-hl{
+  background-color: #333334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+  border-bottom: 2px solid #000;
+  color: #fff;
+  margin: 0px 15px 0px 15px;
+  padding: 5px;
+  text-align: center;
+}
+#mastery-page-guide{
+  background-color:#333334;
+  background: linear-gradient(90deg, #333334 10%, #464648 90%);
+  display: flex;
+  justify-content: center;
+  margin: 0px 15px 15px 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.mastery{
+  float: left;
+  width: 30%;
+  background-repeat: no-repeat;
+}
+.mastery-tree{
+  height: 479px;
+  padding: 5px;
+  padding-top: 30px;
+}
+#wildheit{
+  background-image: url(/_wordpress_dev716a/wp-content/bilder/masteries/red.jpg);
+  background-size: 100% 100%;
+}
+#gerissenheit{
+  background-image: url(/_wordpress_dev716a/wp-content/bilder/masteries/blue.jpg);
+  background-size: 100% 100%;
+}
+#entschlossenheit{
+  background-image: url(/_wordpress_dev716a/wp-content/bilder/masteries/green.jpg);
+  background-size: 100% 100%;
+}
+.mastery-tier-img{
+  display: inline-block;
+  max-width: 100%;
+  position: relative;;
+  width: 33.3333%;
+}
+.tier{
+  margin: 10px 7px 0 25px;
+}
+.mastery-points,
+.mastery-points-grey{
+  background-color: #262626;
+  bottom: -10px;
+  border: 1px solid #a1a2a2;
+  font-size: 10px;
+  right: 9px;
+  padding: 3px 5px 0 5px;
+  position: absolute;
+  z-index: 2;
+}
+.mastery-points{
+  color: #6cdf0f;
+}
+.mastery-points-grey{
+  color: #bbb;
+}
+.tree-name{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+#rune-page {
+  float: left;
+  margin: 0 15px 0 15px;
+  width: 97%;
+}
+#rune-page #hintergrund {
+  display: flex;
+  justify-content: center;
+}
+#rune-page-hl {
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+/**
+* 9. World Championship Seiten
+*
+*/
+
+#groupfield {
+  background-color: #29292a;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 5px;
+  overflow: hidden;
+  width: auto;
+}
+#group {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  width: 210px;
+}
+#groupfirstheader {
+  background-image: linear-gradient(#333 40%, #464648 60%);
+  border: 1px solid #000;
+  color: #e3c56d;
+  float: left;
+  font-size: 1.2em;
+  height: 32px;
+  padding: 5px;
+  width: 210px;
+}
+#groupheader {
+  background-color: #121212;
+  border: 1px solid #000;
+  border-top: 0px;
+  height: 124px;
+  margin-bottom: 5px;
+}
+#games,
+.spoilerbuttons {
+  background-color: #121212;
+  border: 1px solid #000;
+  border-top: 0px;
+  padding-bottom: 5px;
+}
+
+#gamesheader {
+  font-size: 10px;
+  line-height: 12px;
+  padding: 3px;
+  height: 30px;
+}
+#teamPicsDiv {
+  height: 60px;
+}
+#playoffsfield {
+  background-image: url(http://www.lolchampion.de/_wordpress_dev716a/wp-content/uploads/2014/09/20140921_playoffs_bg1.png);
+  border: 1px solid #000;
+  display: block;
+  height: 490px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  overflow: hidden;
+  padding-bottom: 30px;
+  width: 870px;
+}
+.result {
+  color: #e3c56d;
+  height: 21px;
+}
+
+/**
+* 10. Sonstiges Änderungen Startseite und Beiträge
+*
+*/
+/* Noscript Meldung */
+
+#noscript-meldung {
+  background-color: #FFFACD;
+  width: 100%;
+  color: #000;
+  padding: 5px;
+  text-align: center;
+  height: 30px;
+}
+.fusion-copyright-notice {
+  float: right;
+}
+/*Suchleiste Header*/
+#form-champions {
+  width: 300px;
+}
+.fusion-contact-info {
+  line-height: 1 !important;
+}
+.typeahead-list>li.typeahead-group.active>a, .typeahead-list>li.typeahead-group>a, .typeahead-list>li.typeahead-group>a:focus, .typeahead-list>li.typeahead-group>a:hover {
+  background-color: #000!important;
+  color: #fff !important;
+  font-size: 1.2em;
+}
+.search-form-text {
+  line-height: 30px;
+}
+.searchform .search-table .search-field input {
+  color: #fff !important;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+}
+
+/*Beitrag Abkürzungen*/
+
+.abk li {
+  margin-bottom: 10px;
+}
+
+/*Plista Werbung anpassen*/
+
+.plista_widget_standard_1 {
+  background-color: #333;
+  border: 1px solid #000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.lsb-status-widget-list-item {
+  border: 1px solid #000;
+  background-color: #464648 !important;
+}
+.lsb-status-widget-title {
+  padding: 5px;
+}
+.lsb-status-widget-indicator {
+  padding-right: 5px;
+}
+
+/*Grid-Layout Startseite anpassen*/
+
+.flex-active-slide {
+  border: 3px solid #000;
+}
+.entry-title {
+  height: 53px !important;
+}
+
+.fusion-blog-layout-grid .post .content-sep,
+ .fusion-blog-layout-grid .post .flexslider,
+ .fusion-blog-layout-grid .fusion-post-slideshow,
+ .fusion-blog-layout-timeline .fusion-post-slideshow,
+ .fusion-title .title-sep,
+ .fusion-post-wrapper,
+ .grid-layout .post {
+  border-color: #000 !important;
+}
+.fusion-post-wrapper {
+  height: 400px;
+}
+.fusion-page-title-captions {
+  padding-top: 30px !important;
+}
+
+.entry-title {
+  line-height: 23px !important;
+}
+.fusion-blog-grid .post .post-content-container {
+  padding: 20px 25px 20px !important;
+}
+.post-slideshow {
+  margin-bottom: 15px !important;
+}
+.social_share_privacy ul {
+  margin-top: -15px !important;
+}
+.footer-area {
+  border-top: 1px solid #000 !important;
+}
+
+/*Hauptmen� anpassen*/
+
+.fusion-main-menu {
+  float: left !important;
+  margin: 20px 0 0 20px !important;
+}
+
+/*Sidebar*/
+
+#sidebar .widget {
+  margin-bottom: 5px !important;
+}
+
+/**
+* 11. Media Queries
+*
+*/
+
+/* Anrdoid Bug bei Version < 4.0 ausbessern */
+@media only screen and (min-device-width: 240px) and (max-device-width: 1280px) {
+  body {
+    background-image: none !important;
+  }
+}
+
+/* Item-Filter ausblenden*/
+
+@media (max-width: 768px) {
+  #checkbox-item {
+    display: none;
+  }
+}
+
+/* Champion-Filter ausblenden*/
+
+@media (max-width: 768px) {
+  #checkbox-champion {
+    display: none;
+  }
+}
+
+/*Counter*/
+
+@media (max-width: 769px) {
+  #counter2 {
+    min-width: 350px !important;
+    margin: 0 auto;
+    width: 75% !important;
+  }
+  #CounterWerbungMobile {
+    display: block !important;
+  }
+  #counterBGBild {
+    background-position-x: 60% !important;
+  }
+  #counterHL {
+    padding: 10px;
+    position: relative !important;
+    text-align: center !important;
+  }
+  #Quarter_4 {
+    padding_left: 15px !important;
+  }
+}
+
+/*Counter*/
+
+@media (min-width: 769px) {
+  #counter2 {
+    float: left;
+    margin-left: 15px;
+  }
+  #champion-werte,
+  #spotlight,
+  #champion-link,
+  #champion-blurb {
+    float: left;
+  }
+  #counterHL {
+    bottom: 130px;
+    right: 0;
+    margin-right: 1em;
+  }
+}
+
+/*Champion*/
+
+@media (max-width: 769px) {
+  #champion-werte,
+  #spotlight,
+  #champion-link1,
+  #champion-link2,
+  #champion-blurb,
+  #champion-skins,
+  #champion-lore,
+  #skill-section {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  #ChampionBG {
+    background-position-x: 60% !important;
+  }
+  #champion-werte {
+    display: none;
+  }
+  #champion-skins-elements {
+    width: 98%;
+  }
+  #champtitle {
+    bottom: 50px;
+    line-height: 1;
+  }
+  #spotlight {
+    height: 400px;
+    width: 98%;
+  }
+  #spotlight iframe {
+    height: 98%;
+  }
+  #champion-link1 {
+    background-image: url(/_wordpress_dev716a/wp-content/bilder/guide-link-mobile.jpg);
+    font-size: 50px;
+    height: 300px;
+    line-height: 300px;
+    width: 98%;
+  }
+  #champion-link2 {
+    background-image: url(/_wordpress_dev716a/wp-content/bilder/counter-link-mobile.jpg);
+    font-size: 50px;
+    height: 300px;
+    line-height: 300px;
+    width: 98%;
+  }
+  #skill-section {
+    display: block;
+  }
+  #champion-skins-elements a {
+    display: none;
+  }
+  #mobile-tn {
+    display: block;
+  }
+}
+
+/*Champion*/
+
+@media (max-width: 375px) {
+  #champion-link2 {
+    line-height: 150px;
+  }
+}
+@media (max-width: 850px) {
+  #champion-skills-header {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  #champion-werte,
+  #spotlight,
+  #champion-link1,
+  #champion-link2,
+  #champion-blurb,
+  #champion-skins,
+  #champion-lore,
+  #skill-section {
+    float: left;
+  }
+  #mobile-tn {
+    display: none;
+  }
+}
