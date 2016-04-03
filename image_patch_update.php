@@ -132,7 +132,7 @@ else {
 
     //Neue Patchversionen auf lolchampion abspeichern
     if (isset($neue_patch_version[css])) {
-      $fh = fopen($cacheFile, 'w');
+      $fh = fopen($cache_file, 'w');
       fwrite($fh, $neue_patch_version[css]);
       fclose($fh);
     }
