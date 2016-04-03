@@ -1,6 +1,6 @@
 /*
 script for search-form for www.lolchampion.de. See also search_form.html, jquery.typeahead.min.css
-and jquery.typeahead.min
+and jquery.typeahead.min. Data from search-data.json
 */
 jQuery('#champion-search').typeahead({
     order: "desc",
