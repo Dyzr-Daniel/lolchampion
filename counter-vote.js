@@ -2,7 +2,7 @@
 Its purpose is to update the "counter-value" after a user voted for a champion.
 For Details see template_counter_page.php, update_counter_strong.php and update_counter_weak.php
 */
-
+//Updates Counter-Strong-Table
 function UpdateValue(champion, id, vorzeichen, tbl) {
   $.ajax({
     type: "POST",
@@ -23,7 +23,7 @@ function UpdateValue(champion, id, vorzeichen, tbl) {
     }
   }); // Ajax Call
 }
-
+//Updates Counter-Weak-Table
 function UpdateValue2(champion, id, vorzeichen, tbl) {
   $.ajax({
     type: "POST",
