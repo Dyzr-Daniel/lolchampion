@@ -113,7 +113,7 @@ if (function_exists('adinserter')) {
     }    //Ende foreach
 echo '</div>';
 echo '</div>';
-//Link Blog
+//Link Block
 if ($champname != "MonkeyKing") {
     echo '<a style="color:#fff" href="http://www.lolchampion.de/champions/'.$champname.'"><div id="champion-link1">';
 } else {
