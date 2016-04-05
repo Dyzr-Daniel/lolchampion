@@ -20,7 +20,7 @@ if (function_exists('adinserter')) {
     echo adinserter(3);
 }
 echo '<div id="Champion">';
-echo '<div id="ChampionBG" style="height:360px;background-image:url(http://www.lolchampion.de/_wordpress_dev716a/wp-content/bilder/counter/'.$x[key].'_Splash_0.jpg);margin-bottom:1em;position:relative;border:1px solid #000;color:#fff;">';
+echo '<div id="ChampionBG" style="background-image:url(http://www.lolchampion.de/_wordpress_dev716a/wp-content/bilder/counter/'.$x[key].'_Splash_0.jpg);">';
 echo '<div id="champname"><h2>'.$champnamekorrekt.'</h2></div>';
 echo '<div id="champtitle">'.$champ_title.'</div>';
 echo '<div style="clear:left;"></div>';
