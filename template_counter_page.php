@@ -3,7 +3,7 @@ This is the template for the counter pages on www.lolchampion.de/counter
 The content comes from json files which were downloaded from riots servers and
 from lolchampions own database.
 -->
-<script type="text/javascript" src="/_wordpress_dev716a/wp-content/themes/Avada-Child-Theme/counter-vote.js"></script>
+<script type="text/javascript" src="/_wordpress_dev716a/wp-content/themes/Avada-Child-Theme/counter-vote.min.js"></script>
 
 <?php
 //Daten fuer ChampionId abfragen
