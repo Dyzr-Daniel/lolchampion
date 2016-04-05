@@ -1,7 +1,8 @@
 <!--
 This is the template for the counter pages on www.lolchampion.de/counter
 The content comes from json files which were downloaded from riots servers and
-from lolchampions own database.
+from lolchampions own database.The User can also vote for different Champions. See counter-vote.js,
+update_counter_strong.php and update_counter_weak.php
 -->
 <script type="text/javascript" src="/_wordpress_dev716a/wp-content/themes/Avada-Child-Theme/counter-vote.min.js"></script>
 
