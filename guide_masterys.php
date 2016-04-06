@@ -2,8 +2,7 @@
 /*This function provides the mastery container for the guide_template_page.php
 The content comes from json files which were downloaded from riots servers 
 */
-function masterys($skillung)
-{
+function masterys($skillung){
     $inhalt = file_get_contents(dirname(__FILE__).'/OfflineDaten/masterys/mastery_tree.json');
     $masterys= json_decode($inhalt, true);
     $inhalt_all_masteries = file_get_contents(dirname(__FILE__).'/OfflineDaten/masterys/all_masteries.json');
@@ -15,8 +14,8 @@ function masterys($skillung)
     $skill_array_nr=0;
     $baum_namen = [ "Wildheit", "Gerissenheit","Entschlossenheit"];
     $k=0; //Laufindex für $baum_namen
-        foreach ($masterys['tree'] as $tree) {
-            //Pfad Tiefe bestimmen
+    foreach ($masterys['tree'] as $tree) {
+        //Pfad Tiefe bestimmen
         $tree_depth=count($tree);
         //Für jedes Tier auslesen, wie viele Elemente vorhanden sind und in Array speichern
         for ($i=0;$i<$tree_depth;$i++) {
@@ -46,8 +45,8 @@ function masterys($skillung)
             }
             echo '</div>'; //Tier div schließen
         }
-            echo "<div class='tree-name'>".$baum_namen[$k]."</div>";
-            $k++;
-            echo '</div></div>'; // Baum schließen
-        }//Ende foreach
+    echo "<div class='tree-name'>".$baum_namen[$k]."</div>";
+    $k++;
+    echo '</div></div>'; // Baum schließen
+    }//Ende foreach
 }//Ende function
