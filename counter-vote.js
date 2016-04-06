@@ -1,4 +1,4 @@
-/*This is the script for the counter page on www.lolchampion.de
+/*This is the ajax script for the counter page on www.lolchampion.de
 Its purpose is to update the "counter-value" after a user voted for a champion.
 For Details see counter_template_page.php, counter_update_strong.php and counter_update_weak.php
 */
