@@ -1,6 +1,6 @@
 /*This is the script for the counter page on www.lolchampion.de
 Its purpose is to update the "counter-value" after a user voted for a champion.
-For Details see template_counter_page.php, update_counter_strong.php and update_counter_weak.php
+For Details see counter_template_page.php, counter_update_strong.php and counter_update_weak.php
 */
 //Updates Counter-Strong-Table
 function UpdateValue(champion, id, vorzeichen, tbl) {
