@@ -1,6 +1,6 @@
 # lolchampion
 ###**Note**: some comments in the files are in german. However in the header of each file i put a short description in English
-Hello this is the file collection for my first webproject -  [lolchampion](http://www.lolchampion.de).
+Hello this is the file collection of my first webproject -  [lolchampion](http://www.lolchampion.de).
 
 Its a wordpress site with a theme called Avada
 
