@@ -1,0 +1,52 @@
+<!--This is the champion overview code on www.lolchampion.de/champions (../counter or ../champion-guides)
+With overview-page-filter.js you can filter the champions by name or attribute.
+This file content is for a wordpress page.
+-->
+<script type="text/javascript" src="/_wordpress_dev716a/wp-content/themes/Avada-Child-Theme/overview-page-filter.min.js"></script>
+<p>Hier findet ihr zu allen League of Legends Champions Guides in deutsch mit den wichtigsten Infos wie Skill-Reihenfolge, Items und Beschwörerzauber. Die Daten sind abgeleitet aus tausenden von Spielen, wo jeweils berechnet wurde, womit die Spieler am meisten
+  Erfolg hatten. Falls ihr noch Anmerkungen zu unseren Guides habt oder gerne einen detaillierten Guide verfassen wollt, den wir hier abdrucken, schreibt uns doch einfach eine Mail an <a href="mailto:info@lolchampion.de?subject=Guide">info@lolchampion.de</a>mit
+  dem Betreff "Guide".
+</p>
+<div id="champion-filter" style="min-width:300px;">
+  <div style="width:65%;float:left;padding-top:0.5em;">Championfilter</div>
+  <div>
+    <input style="width:30%;padding:5px;min-width:300px;" placeholder="Suche nach einem Champion..." id="box-champ" type="text" />
+  </div>
+  <div style="clear:both;"></div>
+</div>
+<div id="checkbox-champion" style="min-width:300px;min-height:2em;">
+  <input id="Assassin" type="checkbox">Assassine
+  <input id="Fighter" type="checkbox">Kämpfer
+  <input id="Mage" type="checkbox">Magier
+  <input id="Support" type="checkbox">Unterstützung
+  <input id="Tank" type="checkbox">Tank
+  <input id="Marksman" type="checkbox">Schütze
+  <input type="button" value="Filter zurücksetzen" style="float:right;margin-right:0.5em;color:#000;">
+</div>
+<div style="margin-top:10px;">
+  <?php
+$inhalt = file_get_contents('http://www.lolchampion.de/_wordpress_dev716a/wp-content/themes/Avada-Child-Theme/OfflineDaten/Champtags/Champtags.json');
+//Daten in (verschachteltes ("nested")) Array umwandeln
+$ChampionNames = json_decode($inhalt,true);
+ksort($ChampionNames[data]);
+echo' <div>';
+echo' <ul class="champions" id="champions-list" style="margin-left:-1.5em;">';
+foreach ($ChampionNames['data'] as $champ){
+  $champtype=$champ[tags][0];
+  $champtype=$champtype." ".$champ[tags][1];
+  echo '<li data-champtype="'.$champtype.'">';
+    if ($champ[key]=="MonkeyKing"){
+      echo '<a href="Wukong-guide">';
+        echo '<img title="'.$champ[name].'" alt="'.$champ[name].'_Square" src="/_wordpress_dev716a/wp-content/bilder/championssquare/'.$champ[key].'.png" />';
+        echo '<div id="champions-list-name">Wukong</div>';
+        echo '</li></a>';
+      }else{
+        echo '<a href="'.$champ[key].'-guide">';
+          echo '<img title="'.$champ[name].'" alt="'.$champ[name].'_Square" src="/_wordpress_dev716a/wp-content/bilder/championssquare/'.$champ[key].'.png" />';
+          echo '<div id="champions-list-name">'.$champ[name].'</div>';
+          echo '</li></a>';
+        }
+    }
+echo '</ul> </div>';
+?>
+</div>
