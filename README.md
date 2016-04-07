@@ -3,7 +3,7 @@ Hello this is the file collection for my first webproject -  [lolchampion](http:
 
 Its a wordpress site with a theme called Avada
 
-The site is intentionally not responsive because of economic reasons (more adsense income - although after the google-mobile-update i'm working on a mobile version for the website anyway).
+The site is intentionally not responsive because of economic reasons (more adsense income). Although after the google-mobile-update there will be a mobile version in Q3 2016  - i'm already working on it).
 
 Even though i used a theme for the site, i did a lot of changes and build a few **page templates** (see champion_, counter_, and guide_template_page) on my own.
 
